@@ -66,6 +66,7 @@ const addTrainOptions = () => {
                 storeTrain(tag);
                 constructAndAddTrainOption(tag, "nav-link", "navlink", "nav");
                 constructAndAddTrainOption(tag, "menu-link", "link", ".menu-links-container");
+                stopsPerTrain(TRAINS[0]);
             }
         })
         .then(()=> {
